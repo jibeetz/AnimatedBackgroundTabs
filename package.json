@@ -1,0 +1,23 @@
+{
+  "name": "animated-background-tabs",
+  "version": "0.0.5",
+  "description": "Animated Background Tabs",
+  "scripts": {
+    "start": "http-server -a localhost -p 1337"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "JB",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "https://github.com/jibeetz/animated-background-tabs#readme",
+  "devDependencies": {
+    "http-server": "~0.8.0"
+  },
+  "dependencies": {
+  }
+}
