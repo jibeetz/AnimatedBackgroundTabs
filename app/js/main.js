@@ -20,6 +20,7 @@
                     tabsWidth = tabsBar.find('li').length * tabWidth;
 
                 tabsBarCarousel.find('.sliding-tabs').outerWidth(tabsWidth);
+                tabsBarCarousel.css('visibility', 'visible');
 
                 var setArrowsHeight = function(){
                     var tabsBarHeight = tabsBar.height();

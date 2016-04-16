@@ -8,6 +8,10 @@ a:hover {
     text-decoration: none;
 }
 
+.sliding-tabs-carousel{
+    visibility: hidden;
+}
+
 .sliding-tabs-carousel .sliding-tabs {
     border: none;
 }
@@ -28,11 +32,12 @@ a:hover {
 @media (min-width: 768px) {
 
     .sliding-tabs-carousel {
-        border-bottom-color: #4c145f;
+        border-bottom-color: #A0B2C1;
     }
 
     .tabbarcarousel-arrow {
-        background: #ffffff;
+        background: #A0B2C1;
+        color: #fff;
     }
 
     a.tabbarcarousel-arrow.inactive,
@@ -64,7 +69,8 @@ a:hover {
 
     .sliding-tabs-carousel ul li a {
         height: auto;
-        padding: 7px 15px;
+        padding: 7px 0;
+        text-align: center;
     }
 
     .tabbarcarousel-arrow {
@@ -107,16 +113,10 @@ a:hover {
   position: relative;
 }
 
-.nav-tabs {
-    border-bottom-style: solid;
-    border-bottom-width: 6px;
-    border-bottom-color: #4c145f;
-}
-
 .sliding-tab {
     position: absolute;
     will-change: left, right;
-    background: #4c145f;
+    background: #fff;
 }
 
 .nav-tabs > li {
@@ -135,7 +135,7 @@ a:hover {
 
 .nav > li > a:focus,
 .nav > li > a:hover {
-    background-color: #ffffff;
+    background-color: transparent;
 }
 
 .nav-tabs > li.active > a {
@@ -147,7 +147,7 @@ a:hover {
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:focus,
 .nav-tabs > li.active > a:hover {
-    color: #ffffff;
+    color: #225582;
     background-color: transparent;
     border: none;
     border-bottom-color: transparent;
